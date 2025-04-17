@@ -7,3 +7,4 @@ app = Flask(__name__)
 def index():
     name = request.args.get("name", "")
     safe_name = html.escape(name)
+    return f"<h1>Hello, {safe_name}!</h1>"
