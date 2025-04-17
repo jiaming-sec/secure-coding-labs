@@ -1,1 +1,2 @@
-from flask import Flask, request
+from secure_app import app
+
