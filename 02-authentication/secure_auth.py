@@ -30,3 +30,6 @@ def login():
 @app.route("/dashboard")
 def dashboard():
     user = session.get("user")
+    if not user:
+        return redirect("/")
+    return f"Welcome, {user}!"
