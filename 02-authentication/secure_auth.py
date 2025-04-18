@@ -8,3 +8,8 @@ app.secret_key = "a_very_secure_secret_key"  # Should be stored securely
 users = {"admin": generate_password_hash("SecureP@ssw0rd!")}
 
 @app.route("/", methods=["GET", "POST"])
+def login():
+    if request.method == "POST":
+        username = request.form.get("username", "")
+        password = request.form.get("password", "")
+        stored_pw_hash = users.get(username)
