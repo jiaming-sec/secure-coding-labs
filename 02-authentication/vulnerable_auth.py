@@ -6,3 +6,4 @@ app = Flask(__name__)
 users = {"admin": "1234"}
 
 @app.route("/", methods=["GET", "POST"])
+def login():
