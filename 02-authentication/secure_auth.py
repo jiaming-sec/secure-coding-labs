@@ -33,3 +33,6 @@ def dashboard():
     if not user:
         return redirect("/")
     return f"Welcome, {user}!"
+
+if __name__ == "__main__":
+    app.run(debug=True)
