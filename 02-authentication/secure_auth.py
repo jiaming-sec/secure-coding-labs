@@ -26,3 +26,5 @@ def login():
             <input type="submit">
         </form>
     '''
+
+@app.route("/dashboard")
