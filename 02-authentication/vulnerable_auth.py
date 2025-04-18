@@ -28,3 +28,6 @@ def login():
 def dashboard():
     user = request.cookies.get("user")
     return f"Welcome, {user}!"
+
+if __name__ == "__main__":
+    app.run(debug=True)
