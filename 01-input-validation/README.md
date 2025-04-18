@@ -5,4 +5,4 @@ Demonstrate how improper input validation can result in Cross-Site Scripting (XS
 
 ---
 
-##
+## 🧪 The Vulnerability: Reflected XSS
