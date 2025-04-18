@@ -29,3 +29,4 @@ def login():
 
 @app.route("/dashboard")
 def dashboard():
+    user = session.get("user")
