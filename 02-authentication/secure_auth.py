@@ -6,3 +6,5 @@ app.secret_key = "a_very_secure_secret_key"  # Should be stored securely
 
 # Properly hashed password storage
 users = {"admin": generate_password_hash("SecureP@ssw0rd!")}
+
+@app.route("/", methods=["GET", "POST"])
