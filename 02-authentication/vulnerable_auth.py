@@ -25,3 +25,6 @@ def login():
     '''
     
 @app.route("/dashboard")
+def dashboard():
+    user = request.cookies.get("user")
+    return f"Welcome, {user}!"
