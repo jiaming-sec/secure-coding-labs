@@ -13,3 +13,16 @@ def login():
         username = request.form.get("username", "")
         password = request.form.get("password", "")
         stored_pw_hash = users.get(username)
+        
+        if stored_pw_hash and check_password_hash(stored_pw_hash, password):
+            session["user"] = username
+            return redirect("/dashboard")
+        return "Invalid credentials"
+
+     return '''
+        <form method="POST">
+            Username: <input name="username">
+            Password: <input name="password" type="password">
+            <input type="submit">
+        </form>
+    '''
