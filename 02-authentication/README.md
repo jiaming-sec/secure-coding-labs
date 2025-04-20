@@ -14,3 +14,5 @@ In `vulnerable_auth.py`:
 ### Example Exploits:
 - Cookie theft leads to account hijacking
 - Attacker guesses weak password "1234"
+
+---
