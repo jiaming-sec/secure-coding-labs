@@ -18,3 +18,5 @@ In `vulnerable_auth.py`:
 ---
 
 ## ✅ Secure Example
+
+In `secure_auth.py`:
