@@ -5,4 +5,6 @@ Demonstrate insecure authentication practices (e.g., hardcoded passwords, insecu
 ---
 
 ## 🔥 Vulnerable Example
+
 In `vulnerable_auth.py`:
+- Passwords are **stored in plaintext**
