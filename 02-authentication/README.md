@@ -10,3 +10,5 @@ In `vulnerable_auth.py`:
 - Passwords are **stored in plaintext**
 - **Cookies are used without security flags**
 - No session expiration or validation
+
+### Example Exploits:
