@@ -24,3 +24,7 @@ In `secure_auth.py`:
 - Flask session management is used (server-side sessions)
 - Sensitive values are protected with a secret key
 - Redirects and invalid credential handling are applied
+
+---
+
+## 🧪 Testing Tips
