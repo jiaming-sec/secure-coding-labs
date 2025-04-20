@@ -16,3 +16,5 @@ In `vulnerable_auth.py`:
 - Attacker guesses weak password "1234"
 
 ---
+
+## ✅ Secure Example
