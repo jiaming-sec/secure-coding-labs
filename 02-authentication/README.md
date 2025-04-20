@@ -23,3 +23,4 @@ In `secure_auth.py`:
 - Passwords are hashed using `werkzeug.security`
 - Flask session management is used (server-side sessions)
 - Sensitive values are protected with a secret key
+- Redirects and invalid credential handling are applied
