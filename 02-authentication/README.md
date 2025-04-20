@@ -21,3 +21,4 @@ In `vulnerable_auth.py`:
 
 In `secure_auth.py`:
 - Passwords are hashed using `werkzeug.security`
+- Flask session management is used (server-side sessions)
