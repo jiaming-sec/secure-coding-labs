@@ -20,3 +20,4 @@ In `vulnerable_auth.py`:
 ## ✅ Secure Example
 
 In `secure_auth.py`:
+- Passwords are hashed using `werkzeug.security`
