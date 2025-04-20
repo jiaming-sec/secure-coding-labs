@@ -2,3 +2,4 @@ from secure_auth import app
 
 def test_login_success():
     client = app.test_client()
+    response = client.post("/", data={"username": "admin", "password": "SecureP@ssw0rd!"})
