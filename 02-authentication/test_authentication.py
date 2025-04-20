@@ -8,3 +8,4 @@ def test_login_success():
 def test_login_fail():
     client = app.test_client()
     response = client.post("/", data={"username": "admin", "password": "wrong"})
+    assert b"Invalid credentials" in response.data
