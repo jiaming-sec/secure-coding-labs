@@ -8,3 +8,4 @@ Demonstrate insecure authentication practices (e.g., hardcoded passwords, insecu
 
 In `vulnerable_auth.py`:
 - Passwords are **stored in plaintext**
+- **Cookies are used without security flags**
