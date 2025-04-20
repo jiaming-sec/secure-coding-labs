@@ -12,3 +12,4 @@ In `vulnerable_auth.py`:
 - No session expiration or validation
 
 ### Example Exploits:
+- Cookie theft leads to account hijacking
