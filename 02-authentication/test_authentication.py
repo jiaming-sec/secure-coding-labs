@@ -6,3 +6,4 @@ def test_login_success():
     assert response.status_code == 302  # should redirect on success
 
 def test_login_fail():
+    client = app.test_client()
