@@ -28,3 +28,5 @@ In `secure_auth.py`:
 ---
 
 ## 🧪 Testing Tips
+
+- Use tools like **Burp Suite** to intercept session cookies
