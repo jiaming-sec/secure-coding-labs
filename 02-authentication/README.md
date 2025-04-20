@@ -30,4 +30,5 @@ In `secure_auth.py`:
 ## 🧪 Testing Tips
 
 - Use tools like **Burp Suite** to intercept session cookies
-- **Vector**: `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N`
+- Try **cookie tampering**: change `user=admin` to impersonate
+- Test password brute-force using a script or automation
