@@ -30,3 +30,4 @@ In `secure_auth.py`:
 ## 🧪 Testing Tips
 
 - Use tools like **Burp Suite** to intercept session cookies
+- **Vector**: `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N`
