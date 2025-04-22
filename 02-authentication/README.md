@@ -39,3 +39,5 @@ In `secure_auth.py`:
 
 | Category               | Bad Practice                          | Secure Alternative                          |
 |------------------------|----------------------------------------|---------------------------------------------|
+| Password Storage        | Plaintext in dictionary                | Hashed using `bcrypt` or `PBKDF2`           |
+
