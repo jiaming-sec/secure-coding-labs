@@ -41,3 +41,4 @@ In `secure_auth.py`:
 |------------------------|----------------------------------------|---------------------------------------------|
 | Password Storage        | Plaintext in dictionary                | Hashed using `bcrypt` or `PBKDF2`           |
 | Authentication Check    | Direct comparison of strings           | Use constant-time hash checking             |
+| Session Handling        | Raw cookies                            | Use `Flask session` (server-side)           |
