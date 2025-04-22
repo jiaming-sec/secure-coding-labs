@@ -43,3 +43,7 @@ In `secure_auth.py`:
 | Authentication Check    | Direct comparison of strings           | Use constant-time hash checking             |
 | Session Handling        | Raw cookies                            | Use `Flask session` (server-side)           |
 | Cookie Security         | No flags                               | Use `HttpOnly`, `Secure`, and `SameSite`    |
+
+---
+
+## 📈 Simulated CVSS
