@@ -36,3 +36,5 @@ In `secure_auth.py`:
 ---
 
 ## 🛡 Best Practices
+
+| Category               | Bad Practice                          | Secure Alternative                          |
