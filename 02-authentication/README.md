@@ -47,3 +47,5 @@ In `secure_auth.py`:
 ---
 
 ## 📈 Simulated CVSS
+
+- **Score**: 7.5 – High
