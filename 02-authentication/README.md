@@ -32,3 +32,7 @@ In `secure_auth.py`:
 - Use tools like **Burp Suite** to intercept session cookies
 - Try **cookie tampering**: change `user=admin` to impersonate
 - Test password brute-force using a script or automation
+
+---
+
+## 🛡 Best Practices
