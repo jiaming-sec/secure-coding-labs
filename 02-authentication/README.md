@@ -40,4 +40,4 @@ In `secure_auth.py`:
 | Category               | Bad Practice                          | Secure Alternative                          |
 |------------------------|----------------------------------------|---------------------------------------------|
 | Password Storage        | Plaintext in dictionary                | Hashed using `bcrypt` or `PBKDF2`           |
-
+| Authentication Check    | Direct comparison of strings           | Use constant-time hash checking             |
