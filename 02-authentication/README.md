@@ -50,3 +50,4 @@ In `secure_auth.py`:
 
 - **Score**: 7.5 – High
 - **Vector**: `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N`
+- Broken authentication can lead to full account compromise.
