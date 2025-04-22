@@ -55,3 +55,6 @@ In `secure_auth.py`:
 ---
 
 ## 📘 Disclaimer
+
+This project is independently written to reflect secure coding techniques. Inspired by secure coding concepts from Pluralsight.
+
