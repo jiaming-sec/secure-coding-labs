@@ -11,4 +11,8 @@ users = {
 @app.route("/profile/<user_id>")
 
 def profile(user_id):
-# ❌ No authorization check — any user can view any profile
+  # ❌ No authorization check — any user can view any profile
+  user = users.get(user_id)
+    if not user:
+        return "User not found", 404
+    return jsonify(user)
