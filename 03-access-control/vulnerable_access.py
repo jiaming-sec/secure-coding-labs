@@ -11,3 +11,4 @@ users = {
 @app.route("/profile/<user_id>")
 
 def profile(user_id):
+# ❌ No authorization check — any user can view any profile
