@@ -16,3 +16,7 @@ def profile(user_id):
     if not user:
         return "User not found", 404
     return jsonify(user)
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
