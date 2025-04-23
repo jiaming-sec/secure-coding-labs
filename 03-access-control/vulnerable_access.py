@@ -8,7 +8,4 @@ users = {
 
 }
 
-users = {
-    "1": {"name": "Alice", "role": "user"},
-    "2": {"name": "Bob", "role": "admin"}
-}
+@app.route("/profile/<user_id>")
