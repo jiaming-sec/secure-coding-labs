@@ -15,3 +15,7 @@ def profile(user_id):
     # ✅ Enforce user-level access
     if user_id != current_user["user_id"] and current_user["role"] != "admin":
         abort(403, description="Access denied")
+    user = users.get(user_id)
+    if not user:
+        return "User not found", 404
+    return jsonify(user)
