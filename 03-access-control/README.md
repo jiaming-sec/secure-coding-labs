@@ -11,3 +11,5 @@ Demonstrate how missing authorization checks can lead to **insecure direct objec
 In `vulnerable_access.py`:
 - Users can access `/profile/<user_id>` without any validation
 - A user can change the `user_id` in the URL to view another user’s data
+
+### Exploit Example:
