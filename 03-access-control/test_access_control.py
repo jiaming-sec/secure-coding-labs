@@ -8,3 +8,4 @@ def test_user_can_access_own_profile():
 def test_user_cannot_access_others_profile():
   client = app.test_client()
   response = client.get("/profile/2")
+  assert response.status_code == 403
