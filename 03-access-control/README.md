@@ -15,3 +15,4 @@ In `vulnerable_access.py`:
 ### Exploit Example:
 
 ```bash
+GET /profile/2
