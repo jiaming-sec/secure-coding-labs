@@ -7,3 +7,5 @@ Demonstrate how missing authorization checks can lead to **insecure direct objec
 ---
 
 ## 🔥 Vulnerable Example
+
+In `vulnerable_access.py`:
