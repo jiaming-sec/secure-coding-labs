@@ -13,3 +13,5 @@ In `vulnerable_access.py`:
 - A user can change the `user_id` in the URL to view another user’s data
 
 ### Exploit Example:
+
+```bash
