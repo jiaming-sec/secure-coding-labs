@@ -6,3 +6,4 @@ def test_user_can_access_own_profile():
   assert b"Alice" in response.data
 
 def test_user_cannot_access_others_profile():
+  client = app.test_client()
