@@ -7,3 +7,4 @@ app = Flask(__name__)
 DATABASE_PASSWORD = os.getenv("DATABASE_PASSWORD")
 
 @app.route("/")
+def home():
