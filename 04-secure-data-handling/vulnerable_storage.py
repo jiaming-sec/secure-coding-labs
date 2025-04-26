@@ -8,3 +8,5 @@ DATABASE_PASSWORD = "SuperSecretPassword123!"
 @app.route("/")
 def home():
   return f"Database password is {DATABASE_PASSWORD}"  # Should never expose sensitive info!
+
+if __name__ == "__main__":
