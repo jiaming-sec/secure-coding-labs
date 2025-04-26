@@ -10,3 +10,4 @@ def home():
   return f"Database password is {DATABASE_PASSWORD}"  # Should never expose sensitive info!
 
 if __name__ == "__main__":
+   app.run(debug=True)
