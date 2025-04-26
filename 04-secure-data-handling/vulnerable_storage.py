@@ -6,3 +6,4 @@ app = Flask(__name__)
 DATABASE_PASSWORD = "SuperSecretPassword123!"
 
 @app.route("/")
+def home():
