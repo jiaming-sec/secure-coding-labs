@@ -8,3 +8,4 @@ DATABASE_PASSWORD = os.getenv("DATABASE_PASSWORD")
 
 @app.route("/")
 def home():
+  if DATABASE_PASSWORD:
